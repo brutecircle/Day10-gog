@@ -15,12 +15,18 @@ body {
     border-radius: 8px;
     
 }
-
+#btn{
+    position: absolute;
+    right:    0;
+    bottom:   0;
+}
 .navbar-brand {
   position: relative;
   left: -8px;
 }
-
+.ima{
+height: 260px;
+}
 .last-items {
   color: white;
   font-size: 12px;
