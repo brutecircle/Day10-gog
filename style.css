@@ -33,12 +33,12 @@ hr{
 }
 .card{
     margin: 10px;
+    width: fit-content;
 }
 .card img{
  min-height: 120px;
 }
 .btns{
-    /* position: absolute; */
     bottom: 0;
     justify-items: baseline;
   margin: 2px;
