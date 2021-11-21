@@ -1,14 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap");
 
 body {
-  background-color: #909090;
+  background-color: #272525;
   font-family: "Montserrat", sans-serif;
 }
 hr{
     height:2px;
     border-width:0;
-    color:gray
-    ;background-color:hsla(0, 2%, 19%, 0.877)
+    color:rgb(255, 255, 255)
+    ;background-color:hsla(0, 0%, 100%, 0.877)
 }
 .navbar {
   font-size: 0.75rem;
@@ -32,11 +32,18 @@ hr{
 
 }
 .card{
-    margin: 10px;
+    /* margin: 10px; */
     width: fit-content;
 }
 .card img{
  min-height: 120px;
+}
+.midcard{
+    height: 460px;
+}
+.sidecard{
+    height:220px;
+    font-size: 10px;
 }
 .btns{
     bottom: 0;
